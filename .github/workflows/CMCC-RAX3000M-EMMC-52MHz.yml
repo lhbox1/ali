@@ -30,7 +30,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   #CONFIG_FILE: hanwckf/.config
   
-  CONFIG_FILE: configs/rax3000m-emmc.config
+  CONFIG_FILE: configs/aaa.config
   DIY_P1_SH: hanwckf/diy-part1.sh
   DIY_P2_SH: hanwckf/diy-part2.sh
   SSH_ACTIONS: false
