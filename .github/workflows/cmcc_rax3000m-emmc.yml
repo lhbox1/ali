@@ -28,6 +28,7 @@ env:
   CONFIG_FILE: ./configs/rax3000m-emmc.config
   DIY_P1_SH: ./scripts/diy-part1.sh
   DIY_P2_SH: ./scripts/diy-part2.sh
+  CLASH_CORE: ./scripts/preset-clash-core.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
