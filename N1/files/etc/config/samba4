@@ -8,7 +8,7 @@ config samba
 
 config sambashare
 	option name 'OpenWrt'
-	option path '/mnt/mmcblk2p4/Share'
+	option path '/mnt/mmcblk2p4'
 	option read_only 'no'
 	option force_root '1'
 	option guest_ok 'yes'
