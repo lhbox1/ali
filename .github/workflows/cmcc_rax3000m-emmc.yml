@@ -28,7 +28,7 @@ env:
   CONFIG_FILE: ./configs/rax3000m-emmc.config
   DIY_P1_SH: ./scripts/diy-part1.sh
   DIY_P2_SH: ./scripts/diy-part2.sh
-  CLASH_CORE: ./scripts/preset-clash-core.sh
+  #CLASH_CORE: ./scripts/preset-clash-core.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -83,7 +83,7 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        chmod +x $GITHUB_WORKSPACE/$CLASH_CORE && $GITHUB_WORKSPACE/$CLASH_CORE
+      #  chmod +x $GITHUB_WORKSPACE/$CLASH_CORE && $GITHUB_WORKSPACE/$CLASH_CORE
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
