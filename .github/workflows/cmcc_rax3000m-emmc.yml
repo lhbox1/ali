@@ -56,6 +56,11 @@ jobs:
         sudo mkdir -p /workdir
         sudo chown $USER:$GROUPS /workdir
 
+    - name: 检查空间使用情况
+      if: (!cancelled())
+      run: df -hT
+
+
     - name: Clone source code
       working-directory: /workdir
       run: |
