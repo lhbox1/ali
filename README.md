@@ -7,5 +7,8 @@
 https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/targets/armvirt/64/
 
 
+参考  https://github.com/AngelaCooljx/Actions-rax3000m-emmc
+
+
 ## 使用说明
 自用
