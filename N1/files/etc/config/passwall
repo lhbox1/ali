@@ -1,3 +1,4 @@
+
 config global
 	option enabled '0'
 	option tcp_node 'nil'
@@ -32,8 +33,8 @@ config global_subscribe
 
 config global_delay
 	option auto_on '0'
-	option start_delay '5'
 	option start_daemon '1'
+	option start_delay '3'
 
 config global_forwarding
 	option tcp_no_redir_ports 'disable'
@@ -58,10 +59,7 @@ config global_singbox
 	option geosite_url 'https://github.com/SagerNet/sing-geosite/releases/latest/download/geosite.db'
 
 config global_haproxy
-	option balancing_enable '1'
-	option console_port '1188'
-	option health_check_type 'passwall_logic'
-	option health_check_inter '60'
+	option balancing_enable '0'
 
 config global_app
 	option brook_file '/usr/bin/brook'
@@ -84,3 +82,4 @@ config global_rules
 	option week_update '7'
 	option time_update '6'
 	option v2ray_location_asset '/usr/share/v2ray/'
+
