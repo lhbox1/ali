@@ -14,6 +14,6 @@ https://github.com/lgs2007m/Actions-OpenWrt/tree/main
 
 ## 使用说明
 
-自用
+借助编译自用
 
 感谢各位大佬
