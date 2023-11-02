@@ -9,6 +9,11 @@ https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/targets/armvirt/64/
 
 参考  https://github.com/AngelaCooljx/Actions-rax3000m-emmc
 
+https://github.com/lgs2007m/Actions-OpenWrt/tree/main
+
 
 ## 使用说明
+
 自用
+
+感谢各位大佬
