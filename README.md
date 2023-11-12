@@ -11,6 +11,9 @@ https://mirrors.vsean.net/openwrt/releases/21.02-SNAPSHOT/targets/armvirt/64/
 
 https://github.com/lgs2007m/Actions-OpenWrt/tree/main
 
+https://github.com/hanwckf/immortalwrt-mt798x
+
+
 
 ## 使用说明
 
