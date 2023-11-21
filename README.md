@@ -15,6 +15,8 @@ https://github.com/hanwckf/immortalwrt-mt798x
 
 https://openwrt.ai/?target=mediatek%2Fmt7981&id=cmcc_rax3000m-emm
 
+https://firmware-selector.immortalwrt.org/?version=23.05-SNAPSHOT&target=mediatek%2Ffilogic&id=cmcc_rax3000m-emmc-ubootmod
+
 
 ## 使用说明
 
